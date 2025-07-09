@@ -12,7 +12,7 @@ from src.mcqgenerator.logger import logging
 
 # Loading json file
 
-with open(r'D:\MCQ_Generator\Response.json', 'r') as file:
+with open(r'Response.json', 'r') as file:
   RESPONSE_JSON = json.load(file)
 
 # Creating a title for the app
